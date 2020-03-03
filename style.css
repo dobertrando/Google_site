@@ -1,13 +1,32 @@
 #gmail {
   position: absolute;
   top: 23px;
-  right: 200px;
+  right: 50px;
 }
 
 #afbeelding {
   position: absolute;
   top: 23px;
   right: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  }
+  
+li {
+  float: right;}
+  
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .logo {
@@ -41,9 +60,10 @@
 
 .land {
   text-align: left;
-  background: Lightgray;
+  background: #DCDCDC;
   font-size: 14px;
-  border: 1px solid #595959;
+  colour: grey; 
+  border: 1px solid black;
   width: 100%;
 }
 
@@ -53,7 +73,7 @@
   width: 100%;
   grid-template-columns: 10% 8% 6% auto auto 12% 12% 12%;
   grid-template-rows: auto;
-  background: lightgray;
+  background: #DCDCDC;
   border-left: 1px solid #595959;
   border-right: 1px solid #595959;
   border-bottom: 1px solid #595959;
