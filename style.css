@@ -1,21 +1,37 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+
 #gmail {
   position: absolute;
   top: 23px;
   right: 50px;
+  font-family: arial;
 }
 
 #afbeelding {
   position: absolute;
   top: 23px;
   right: 100px;
+  font-family: arial;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 10px;
   overflow: hidden;
   background-color: white;
+  font-family: arial;
+  font-size: 10px;
+  
   }
   
 li {
@@ -55,28 +71,34 @@ li a {
 }
 
 .container_witspatie {
-  padding: 25px;
+  padding: 100px;
 }
 
 .land {
   text-align: left;
   background: #DCDCDC;
   font-size: 14px;
-  colour: grey; 
+  color: grey; 
   border: 1px solid black;
   width: 100%;
+  padding: 10px;
+  font-family: arial;
 }
 
 .onderste-lijn {
   display: grid;
   font-size: 14px;
+  color: grey;
   width: 100%;
-  grid-template-columns: 10% 8% 6% auto auto 12% 12% 12%;
+  grid-template-columns: 8% 8% 6% auto auto 7% 7% 7%;
   grid-template-rows: auto;
   background: #DCDCDC;
-  border-left: 1px solid #595959;
-  border-right: 1px solid #595959;
-  border-bottom: 1px solid #595959;
+  border-left: 1px solid #bfbfbd;
+  border-right: 1px solid #bfbfbd;
+  border-bottom: 1px solid #bfbfbd;
+  padding: 10px;
+  font-family: arial;
+  font-size: 10px;
 }
 
 .d1 {
@@ -93,8 +115,8 @@ li a {
 
 .d5 {}
 
-.d6 {}
+.d6 {text-align: left;}
 
-.d7 {}
+.d7 {text-align: center;}
 
-.d8 {}
+.d8 { text-align: right;}
