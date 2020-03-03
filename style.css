@@ -136,3 +136,12 @@ li a {
 .d8 {
   text-align: right;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 30px;
+}
