@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+
+<a href="mail.google.com" id="gmail" style="text-decoration: none; color: black">
+  Gmail
+</a>
+<a href="images.google.com" id="afbeelding" style="text-decoration: none; color: black">
+  Afbeeldingen
+</a>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=Google style="padding-top:100px; padding-bottom: 25px;" class="logo" width="280" height="92">
+
+
+<div class="container">
+  <div class="zoekbalk">
+    <form action="Google search">
+      <input type="text" placeholder="voer hier zoekterm in" size="45">
+    </form>
+  </div>
+
+</div>
+
+<div class="container2">
+  <div class="knoppen"> <button type="submit">Google zoeken</button> </div>
+  <div class="knoppen"> <button type="submit">Ik doe een gok</button> </div>
+
+  <div>
+    Google aangeboden in:
+    <a href="https://www.google.be/setprefs?sig=0_dnLqpW4y67UAAK8ppYZy4fOpEXc%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwj3sciHzeLnAhVK3qQKHR_4BaEQ2ZgBCA0"> Français</a>
+    <a href="https://www.google.be/setprefs?sig=0_dnLqpW4y67UAAK8ppYZy4fOpEXc%3D&hl=de&source=homepage&sa=X&ved=0ahUKEwj3sciHzeLnAhVK3qQKHR_4BaEQ2ZgBCA4"> Deutsch</a>
+    <a href="https://www.google.be/setprefs?sig=0_dnLqpW4y67UAAK8ppYZy4fOpEXc%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwj3sciHzeLnAhVK3qQKHR_4BaEQ2ZgBCA8"> English</a>
+
+  </div>
+</div>
+<div class="container_witspatie">
+</div>
+
+<div class="land"> België </div>
+
+<div class="onderste-lijn">
+  <div class="d1">Adverteren</div>
+  <div class="d2">Bedrijf</div>
+  <div class="d3">Over</div>
+  <div class="d4">Hoe Google Zoeken werkt</div>
+  <div class="d5"></div>
+  <div class="d6">Privacy</div>
+  <div class="d7">Voorwaarden</div>
+  <div class="d8">Instellingen</div>
+
+</div>
